@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">The Trip</string>
+    <string name="tripName">Trip Name</string>
+    <string name="startPoint">Start Point</string>
+    <string name="Destination">Destination</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="notes">Notes</string>
+    <string name="oneWay">One Way</string>
+    <string name="roundTrip">Round Trip</string>
+    <string name="enterTripName">Enter Trip Name</string>
+    <string name="enterNots">Enter Your Notes</string>
+    <string name="enterStartPoint">Choose Start Location</string>
+    <string name="enterEndPoint">Choose Your Place</string>
+    <string name="save">Save</string>
+    <string name="tripNameErrorMessage">Please write a name for your trip </string>
+    <string name="startPointErrorMessage">Please choose your start point</string>
+    <string name="destinationErrorMessage">Please choose your destination</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="splsh_word">Hello</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="hint_data">No account yet? Create one</string>
+    <string name="login_btn_str">Login</string>
+    <string name="name_hint">Name</string>
+    <string name="pass_confirm_hint">Confirm Password</string>
+    <string name="data_hint">Already a member? Login</string>
+    <string name="view_trip">View Trip</string>
+    <string name="DeleteTrip">Delete Trip</string>
+    <string name="About_app">About</string>
+    <string name="editBtn">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="finished">Finish Trips</string>
+    <string name="canceled">Cancel Trips</string>
+    <string name="title_activity_navigation_info_">The Trip</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_English">English</string>
+    <string name="action_Arbic">عربى</string>
+    <string name="yourTripMeesage">Your Trip </string>
+    <string name="startBtn">Start</string>
+    <string name="laterBtn">Later</string>
+    <string name="canceleDialogeBtn">Cancel</string>
+    <string name="facebook_app_id">431197947310934</string>
+    <string name="logout">Log Out</string>
+    <string name="tripDetailsTitle">Trip Details</string>
+    <string name="creatTripTitle">New Trip</string>
+    <string name="fishedtrips">Finish Trips</string>
+    <string name="canceledTrip">Cancel Trips</string>
+    <string name="login">Login </string>
+    <string name="signup">SignUp</string>
+
+
+</resources>

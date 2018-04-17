@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TripPlanner</string>
+    <string name="tripName">اسم الرحلة</string>
+    <string name="startPoint">نقطة البداية</string>
+    <string name="Destination">وجهة الوصول</string>
+    <string name="date">التاريخ</string>
+    <string name="time">الوقت</string>
+    <string name="notes">ملاحظات</string>
+    <string name="oneWay">مرة واحدة</string>
+    <string name="roundTrip">رحلة متكررة</string>
+    <string name="enterTripName">قم بادخال اسم الرحلة</string>
+    <string name="enterNots">اكتب ملاحظاتك حول الرحلة</string>
+    <string name="enterStartPoint">قم باختيار نقطة البدايةt</string>
+    <string name="enterEndPoint">قم باختيار نقطة النهاية</string>
+    <string name="save">حفظ</string>
+    <string name="tripNameErrorMessage">من فضلك اكتب اسم رحلتك </string>
+    <string name="startPointErrorMessage">من فضلك اختر نقطة البداية</string>
+    <string name="destinationErrorMessage">من فضلك اختر وجهتك</string>
+    <string name="to">الى</string>
+    <string name="from">من</string>
+    <string name="splsh_word">مرحبا</string>
+    <string name="email_hint">البريد الالكترونى</string>
+    <string name="password_hint">الرقم السرى</string>
+    <string name="hint_data">تسجيل حساب جديد</string>
+    <string name="login_btn_str">تسجيل الدخول</string>
+    <string name="name_hint">الاسم</string>
+    <string name="pass_confirm_hint">تاكيد الرقم السرى</string>
+    <string name="data_hint">تسجيل الدخول بالفعل انا عضو</string>
+    <string name="editBtn">تغير</string>
+    <string name="delete">مسح</string>
+    <string name="finished">انتهت  </string>
+    <string name="canceled">الغيت</string>
+    <string name="yourTripMeesage">رحلتك </string>
+    <string name="starttn">بداء</string>
+    <string name="laterBtn">تاخير</string>
+    <string name="canceleDialogeBtn">الغاء</string>
+    <string name="logout">خروج</string>
+    <string name="action_settings">اعدادات</string>
+    <string name="tripDetailsTitle">تفاصيل الرحلة</string>
+    <string name="creatTripTitle">اعداد رحلة جديدة</string>
+    <string name="fishedtrips">الرحلات المنتهية</string>
+    <string name="canceledTrip">الرحلات الملغاة</string>
+    <string name="login">تسجيل الدخول  </string>
+    <string name="signup">انشاء حساب </string>
+
+</resources>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eslamjava.tripplanner.CreatNewTripActivity">
+
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tripName"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="serif"/>
+
+            <EditText
+                android:id="@+id/tripNameEdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/enterTripName"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColorLink="@color/common_google_signin_btn_text_dark_focused" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/startPoint"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="serif"/>
+
+            <EditText
+                android:id="@+id/startPointEdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/enterStartPoint"
+                android:inputType="none"
+                android:editable="false"
+                android:paddingLeft="20dp"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Destination"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="serif"/>
+
+            <EditText
+                android:id="@+id/destinationEdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/enterEndPoint"
+                android:inputType="none"
+                android:editable="false"
+                android:paddingLeft="20dp"/>
+
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="35dp"
+                android:text="@string/date"
+                android:fontFamily="serif"
+                android:layout_marginLeft="20dp"
+                />
+
+            <EditText
+                android:id="@+id/dateEdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:ems="10"
+                android:inputType="none"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="0dp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="serif"
+
+                android:layout_weight="1"
+                android:text="@string/time"
+                android:layout_marginRight="40dp"/>
+
+            <EditText
+                android:id="@+id/timeEdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:inputType="none"
+                android:paddingLeft="20dp" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notes"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="serif"/>
+
+            <EditText
+                android:id="@+id/notesEdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enterNots"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/oneWay"
+        android:fontFamily="serif"
+        android:layout_marginTop="20dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/linearLayout6"
+            android:id="@+id/linearLayout7">
+
+
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:width="70dp"
+                android:layout_marginLeft="45dp"
+                tools:targetApi="ice_cream_sandwich"
+               />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+
+                android:layout_marginLeft="15dp"
+                android:text="@string/roundTrip" />
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:clickable="false"
+        android:background="@drawable/buttondesign"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linearLayout7"
+            android:orientation="horizontal">
+
+
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:gravity="center"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/buttondesign"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:id="@+id/editBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/editBtn"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/buttondesign"
+                android:textColor="#FFFFFF"
+
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                />
+
+
+        </LinearLayout>
+</GridLayout>
+
+</ScrollView>
+
+
+
+
+
+
